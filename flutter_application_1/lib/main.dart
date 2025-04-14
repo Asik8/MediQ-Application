@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mediqu/pages/auth/login_page.dart';
+import 'package:mediqu/pages/home_page.dart';  
 import 'package:mediqu/pages/splash_page.dart';
 import 'package:mediqu/app_theme.dart';
 

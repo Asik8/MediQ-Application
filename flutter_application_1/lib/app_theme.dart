@@ -7,6 +7,7 @@ class AppTheme {
     colorScheme: const ColorScheme.light(
       primary: Color(0xFF4CAF50),
       secondary: Color(0xFF8BC34A),
+    ),
     scaffoldBackgroundColor: Colors.white,
     appBarTheme: AppBarTheme(
       backgroundColor: const Color(0xFF4CAF50),
