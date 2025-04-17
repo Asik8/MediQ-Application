@@ -5,7 +5,7 @@ const API_BASE_URL = 'https://api.mediq.com/v1';
 const EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 // Mock user database (in a real app, this would be on the server)
-let users = [
+let users = JSON.parse(localStorage.getItem('mediq_users')) || [
     {
         id: 1,
         name: 'Sapnil Ahmed',
@@ -14,6 +14,11 @@ let users = [
         password: 'SapnilAsikMim' // In real app, this would be hashed
     }
 ];
+
+// Save users to localStorage
+function saveUsers() {
+    localStorage.setItem('mediq_users', JSON.stringify(users));
+}
 
 // API Service Class
 class ApiService {
@@ -52,6 +57,9 @@ class ApiService {
                 ...userData
             };
             users.push(newUser);
+            
+            // Save to localStorage
+            saveUsers();
 
             // In a real app, this would be an API call
             return {
