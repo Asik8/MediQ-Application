@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediQ - Your Personal Medicine Assistant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Login Page (shown first) -->
+    <div class="login-container" id="loginContainer">
+        <div class="login-form">
+            <div class="login-logo">
+                <i class="fas fa-heartbeat"></i>
+                <h1>MediQ</h1>
+                <p>Your Personal Medicine Assistant</p>
+            </div>
+            
+            <div class="form-group">
+                <label for="loginEmail">Email</label>
+                <input type="email" id="loginEmail" placeholder="Enter your email">
+            </div>
+            
+            <div class="form-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" placeholder="Enter your password">
+            </div>
+            
+            <button class="login-btn" id="loginBtn">Login</button>
+            
+            <div class="login-footer">
+                <p>Don't have an account? <a href="#" id="showRegister">Register here</a></p>
+                <p>By logging in, you agree to our Terms & Conditions</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Page (hidden by default) -->
+    <div class="register-container" id="registerContainer" style="display: none;">
+        <div class="register-form">
+            <div class="register-logo">
+                <i class="fas fa-heartbeat"></i>
+                <h1>MediQ</h1>
+                <p>Create Your Account</p>
+            </div>
+            
+            <div class="form-group">
+                <label for="registerName">Full Name</label>
+                <input type="text" id="registerName" placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+                <label for="registerEmail">Email</label>
+                <input type="email" id="registerEmail" placeholder="Enter your email">
+            </div>
+            
+            <div class="form-group">
+                <label for="registerPhone">Phone Number</label>
+                <input type="tel" id="registerPhone" placeholder="Enter your phone number">
+            </div>
+            
+            <div class="form-group">
+                <label for="registerPassword">Password</label>
+                <input type="password" id="registerPassword" placeholder="Create a password">
+            </div>
+
+            <div class="form-group">
+                <label for="registerConfirmPassword">Confirm Password</label>
+                <input type="password" id="registerConfirmPassword" placeholder="Confirm your password">
+            </div>
+            
+            <button class="register-btn" id="registerBtn">Register</button>
+            
+            <div class="register-footer">
+                <p>Already have an account? <a href="#" id="showLogin">Login here</a></p>
+                <p>By registering, you agree to our Terms & Conditions</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- App Container (hidden until login) -->
+    <div class="app-container" id="appContainer" style="display: none;">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-left">
+                <div class="logo">MediQ</div>
+                <p>Your Personal Medicine Assistant</p>
+            </div>
+            <div class="header-right">
+                <button class="header-reminder-btn" id="headerReminderBtn">
+                    <i class="fas fa-bell"></i>
+                    <span>Set Reminder</span>
+                </button>
+                <button class="profile-icon" id="headerProfileBtn">
+                    <i class="fas fa-user-circle"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#" class="active" data-page="home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#" data-page="pharmacy"><i class="fas fa-map-marker-alt"></i> Pharmacy</a></li>
+                <li><a href="#" data-page="price"><i class="fas fa-tag"></i> Price</a></li>
+                <li><a href="#" data-page="shop"><i class="fas fa-shopping-bag"></i> MediQ-Shop</a></li>
+                <li><a href="#" data-page="symptom"><i class="fas fa-stethoscope"></i> Symptom</a></li>
+            </ul>
+        </nav>
+
+        <!-- Page Content -->
+        <main class="page-content">
+            <!-- Home Page -->
+            <section id="home" class="page active">
+                <div class="search-section">
+                    <h2>Medicine Search</h2>
+                    <p>Search medicine to get detailed information</p>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search medicine...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+
+                <div class="quick-actions">
+                    <h3>Quick Actions</h3>
+                    <div class="action-buttons">
+                        <button class="action-btn" id="priceActionBtn">
+                            <i class="fas fa-tag"></i>
+                            <span>Check Medicine Price & Details</span>
+                        </button>
+                        <button class="action-btn" id="reminderActionBtn">
+                            <i class="fas fa-bell"></i>
+                            <span>Set Medicine Reminder</span>
+                        </button>
+                        <button class="action-btn" id="pharmacyActionBtn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nearby Pharmacy Shop</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="schedule-section">
+                    <h3>Today's Schedule</h3>
+                    <p>Your medicine reminders for today</p>
+                    <ul class="reminder-list">
+                        <li>
+                            <input type="checkbox" id="vitaminD">
+                            <label for="vitaminD">Vitamin D <span>Morning - 1 Tablet</span></label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="vitaminC">
+                            <label for="vitaminC">Vitamin C ≥50mg <span>Morning - 2 Tablet</span></label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="health-tips">
+                    <h3>Health Tips</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Store medicines in a cool, dry place</li>
+                        <li><i class="fas fa-check-circle"></i> Check expiration dates regularly</li>
+                        <li><i class="fas fa-check-circle"></i> Keep a list of current medications</li>
+                        <li><i class="fas fa-check-circle"></i> Never share prescription medicines</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Pharmacy Page -->
+            <section id="pharmacy" class="page">
+                <h2>Nearby Pharmacies</h2>
+                <p>Find pharmacies close to your location</p>
+                
+                <div class="search-box">
+                    <input type="text" placeholder="Enter Your Location">
+                    <button>Find Nearby Pharmacy</button>
+                </div>
+                
+                <div class="pharmacy-list">
+                    <div class="pharmacy-card">
+                        <h3>Care Pharmacy</h3>
+                        <p class="address">123 Changong Street, Asulia</p>
+                        <div class="pharmacy-info">
+                            <span class="distance">0.7 km</span>
+                            <span class="rating">4.6 <i class="fas fa-star"></i></span>
+                            <span class="phone">+8801700000000</span>
+                        </div>
+                        <div class="timing">9:00 AM - 10:00 PM</div>
+                        <div class="pharmacy-actions">
+                            <button class="direction-btn"><i class="fas fa-directions"></i> Directions</button>
+                            <button class="call-btn"><i class="fas fa-phone"></i> Call</button>
+                        </div>
+                    </div>
+                    
+                    <div class="pharmacy-card">
+                        <h3>Life Pharmacy</h3>
+                        <p class="address">456 Health Avenue, Asulia</p>
+                        <div class="pharmacy-info">
+                            <span class="distance">1.2 km</span>
+                            <span class="rating">4.8 <i class="fas fa-star"></i></span>
+                            <span class="phone">+8801700000001</span>
+                        </div>
+                        <div class="timing">8:00 AM - 11:00 PM</div>
+                        <div class="pharmacy-actions">
+                            <button class="direction-btn"><i class="fas fa-directions"></i> Directions</button>
+                            <button class="call-btn"><i class="fas fa-phone"></i> Call</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Price Page -->
+            <section id="price" class="page">
+                <h2>Medicine Prices</h2>
+                
+                <div class="search-box">
+                    <input type="text" placeholder="Search Medicine...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                
+                <div class="filter-options">
+                    <button><i class="fas fa-filter"></i> Filter</button>
+                    <button><i class="fas fa-sort-amount-down"></i> Sort</button>
+                </div>
+                
+                <div class="medicine-list">
+                    <div class="medicine-card">
+                        <h3>Paracetamol 500mg</h3>
+                        <div class="price">¥ 7.67</div>
+                        <div class="brand">[Tijdend]</div>
+                        <div class="quantity">30 Tablets</div>
+                        <div class="medicine-actions">
+                            <button class="add-btn"><i class="fas fa-plus"></i> Add to List</button>
+                            <button class="details-btn"><i class="fas fa-info-circle"></i> Details</button>
+                        </div>
+                    </div>
+                    
+                    <div class="medicine-card">
+                        <h3>Amoxicillin 250mg</h3>
+                        <div class="price">¥ 10.67</div>
+                        <div class="brand">[Amoxil]</div>
+                        <div class="quantity">20 Capsules</div>
+                        <div class="medicine-actions">
+                            <button class="add-btn"><i class="fas fa-plus"></i> Add to List</button>
+                            <button class="details-btn"><i class="fas fa-info-circle"></i> Details</button>
+                        </div>
+                    </div>
+                    
+                    <div class="medicine-card">
+                        <h3>Loratadine 10mg</h3>
+                        <div class="price">¥ 12.67</div>
+                        <div class="brand">[Clanitin]</div>
+                        <div class="quantity">20 Tablets</div>
+                        <div class="medicine-actions">
+                            <button class="add-btn"><i class="fas fa-plus"></i> Add to List</button>
+                            <button class="details-btn"><i class="fas fa-info-circle"></i> Details</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Shop Page -->
+            <section id="shop" class="page">
+                <h2>Medicine Shop</h2>
+                <p>Purchase medicines and healthcare products</p>
+                
+                <div class="search-box">
+                    <input type="text" placeholder="Search Products...">
+                    <button>Filter Products</button>
+                </div>
+                
+                <div class="category-section">
+                    <h3>Category</h3>
+                    <div class="category-buttons">
+                        <button>Vitamins</button>
+                        <button>Pain Relief</button>
+                        <button>Cold & Flu</button>
+                        <button>Digestive</button>
+                    </div>
+                </div>
+                
+                <div class="product-list">
+                    <div class="product-card">
+                        <div class="product-image">[Image]</div>
+                        <h3>Vitamin C 1000mg</h3>
+                        <div class="price">¥ 15.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">[Image]</div>
+                        <h3>Omega-3 Fish Oil</h3>
+                        <div class="price">¥ 22.50</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Symptom Page -->
+            <section id="symptom" class="page">
+                <h2>Symptom Checker</h2>
+                <p>Describe your symptoms to get recommendations</p>
+                
+                <div class="search-box">
+                    <input type="text" placeholder="Describe your symptoms...">
+                    <button>Search</button>
+                </div>
+                
+                <div class="symptom-categories">
+                    <h3>Common Symptoms</h3>
+                    <div class="symptom-buttons">
+                        <button>Headache</button>
+                        <button>Fever</button>
+                        <button>Cough</button>
+                        <button>Stomach Pain</button>
+                        <button>Sore Throat</button>
+                        <button>Fatigue</button>
+                    </div>
+                </div>
+                
+                <div class="symptom-results">
+                    <h3>Possible Conditions</h3>
+                    <div class="condition-card">
+                        <h4>Common Cold</h4>
+                        <p>Typical symptoms include runny nose, sneezing, and sore throat</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reminder Page -->
+            <section id="reminder" class="page">
+                <h2>Set Medicine Reminder</h2>
+                
+                <div class="reminder-form">
+                    <div class="form-group">
+                        <label for="medicineName">Medicine Name</label>
+                        <input type="text" id="medicineName" placeholder="Enter medicine name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="dosage">Dosage</label>
+                        <input type="text" id="dosage" placeholder="e.g. 1 tablet">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" id="time">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="frequency">Frequency</label>
+                        <select id="frequency">
+                            <option value="daily">Daily</option>
+                            <option value="weekly">Weekly</option>
+                            <option value="monthly">Monthly</option>
+                            <option value="as_needed">As Needed</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="startDate">Start Date</label>
+                        <input type="date" id="startDate">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="notes">Notes</label>
+                        <textarea id="notes" placeholder="Additional instructions"></textarea>
+                    </div>
+                    
+                    <button class="save-reminder-btn">Save Reminder</button>
+                </div>
+            </section>
+
+            <!-- Profile Page -->
+            <section id="profile" class="page">
+                <div class="profile-header">
+                    <div class="profile-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <h2>User Profile</h2>
+                </div>
+
+                <div class="profile-section">
+                    <h3>Personal Information</h3>
+                    <div class="profile-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value" id="profileName">Sapnil Ahmed</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value" id="profileEmail">sapnilasikmim@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone:</span>
+                            <span class="info-value" id="profilePhone">+880 123456789</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-section">
+                    <h3>App Settings</h3>
+                    <div class="settings-list">
+                        <div class="setting-item">
+                            <span>Notification Settings</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="setting-item">
+                            <span>Language Preferences</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="setting-item">
+                            <span>Privacy Settings</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-actions">
+                    <button class="logout-btn">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Floating Reminder Button -->
+        <button class="set-reminder-btn" id="floatingReminderBtn">
+            <i class="fas fa-bell"></i>
+            <span>Set Reminder</span>
+        </button>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

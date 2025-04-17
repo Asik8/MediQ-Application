@@ -1,0 +1,982 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Login and Register Containers */
+.login-container,
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.login-form,
+.register-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-logo,
+.register-logo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login-logo i,
+.register-logo i {
+    font-size: 3rem;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.login-logo h1,
+.register-logo h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.login-logo p,
+.register-logo p {
+    color: #666;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+/* Buttons */
+.login-btn,
+.register-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.login-footer,
+.register-footer {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #666;
+}
+
+.login-footer a,
+.register-footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-footer a:hover,
+.register-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .login-form,
+    .register-form {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+}
+
+/* App Container Styles */
+.app-container {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.app-header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-left .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.header-left p {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-reminder-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-reminder-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-reminder-btn i {
+    font-size: 14px;
+}
+
+.profile-icon {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.profile-icon i {
+    font-size: 28px;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.profile-icon:hover i {
+    transform: scale(1.1);
+}
+
+/* Navigation Styles */
+.main-nav {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.main-nav a i {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.main-nav a.active {
+    color: #4a90e2;
+}
+
+.main-nav a:hover {
+    color: #4a90e2;
+}
+
+/* Page Content Styles */
+.page-content {
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+/* Common Elements */
+.search-box {
+    display: flex;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #3a7bc8;
+}
+
+/* Home Page Styles */
+.search-section h2 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.search-section p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.quick-actions {
+    margin: 25px 0;
+}
+
+.quick-actions h3 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f0f7ff;
+    border: none;
+    border-radius: 10px;
+    color: #4a90e2;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.action-btn:hover {
+    background-color: #e0efff;
+}
+
+.action-btn i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.schedule-section {
+    margin: 25px 0;
+}
+
+.schedule-section h3 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.schedule-section p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.reminder-list {
+    list-style: none;
+}
+
+.reminder-list li {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.reminder-list input[type="checkbox"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.reminder-list label {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reminder-list label span {
+    color: #666;
+    font-size: 14px;
+}
+
+.health-tips {
+    margin: 25px 0;
+}
+
+.health-tips h3 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.health-tips ul {
+    list-style: none;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.health-tips li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.health-tips li i {
+    color: #4a90e2;
+    margin-right: 10px;
+}
+
+/* Pharmacy Page Styles */
+.pharmacy-list {
+    margin-top: 20px;
+}
+
+.pharmacy-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pharmacy-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pharmacy-card h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.address {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.pharmacy-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.distance {
+    color: #4a90e2;
+    font-weight: 500;
+}
+
+.rating {
+    color: #ff9800;
+    font-weight: 500;
+}
+
+.phone {
+    color: #666;
+}
+
+.timing {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.pharmacy-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.direction-btn, .call-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: background-color 0.3s;
+}
+
+.direction-btn {
+    background-color: #e3f2fd;
+    color: #4a90e2;
+}
+
+.direction-btn:hover {
+    background-color: #d4e9fc;
+}
+
+.call-btn {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.call-btn:hover {
+    background-color: #3a7bc8;
+}
+
+/* Price Page Styles */
+.price .search-box {
+    margin-bottom: 10px;
+}
+
+.filter-options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-options button {
+    background-color: #e3f2fd;
+    color: #4a90e2;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.filter-options button:hover {
+    background-color: #d4e9fc;
+    transform: translateY(-2px);
+}
+
+.filter-options button i {
+    font-size: 14px;
+}
+
+.medicine-list {
+    margin-top: 15px;
+}
+
+.medicine-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.medicine-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.medicine-card h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a90e2;
+    margin-bottom: 5px;
+}
+
+.brand {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.quantity {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.medicine-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.add-btn, .details-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background-color 0.3s;
+}
+
+.add-btn {
+    background-color: #e3f2fd;
+    color: #4a90e2;
+}
+
+.add-btn:hover {
+    background-color: #d4e9fc;
+}
+
+.details-btn {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.details-btn:hover {
+    background-color: #3a7bc8;
+}
+
+/* Shop Page Styles */
+.category-section {
+    margin-top: 20px;
+}
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.category-buttons button {
+    background-color: #e3f2fd;
+    color: #4a90e2;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-buttons button:hover {
+    background-color: #d4e9fc;
+}
+
+.product-list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.product-card .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    width: 100%;
+    padding: 8px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #3a7bc8;
+}
+
+/* Symptom Page Styles */
+.symptom-categories {
+    margin-top: 20px;
+}
+
+.symptom-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.symptom-buttons button {
+    background-color: #e3f2fd;
+    color: #4a90e2;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.symptom-buttons button:hover {
+    background-color: #d4e9fc;
+}
+
+.symptom-results {
+    margin-top: 25px;
+}
+
+.condition-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.condition-card h4 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.condition-card p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Reminder Page Styles */
+.reminder-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.form-group textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+.save-reminder-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.save-reminder-btn:hover {
+    background-color: #3a7bc8;
+}
+
+/* Profile Page Styles */
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-avatar {
+    margin: 0 auto 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-avatar i {
+    font-size: 100px;
+    color: #4a90e2;
+}
+
+.profile-section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-section h3 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.profile-info {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: 500;
+    color: #666;
+}
+
+.info-value {
+    color: #333;
+}
+
+.settings-list {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.setting-item:last-child {
+    border-bottom: none;
+}
+
+.setting-item:hover {
+    background-color: #f0f0f0;
+}
+
+.setting-item i {
+    color: #999;
+}
+
+.logout-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #f8f8f8;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #ffecec;
+}
+
+/* Floating Reminder Button */
+.set-reminder-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 100;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.set-reminder-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #3a7bc8;
+}
+
+.set-reminder-btn i {
+    font-size: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 400px) {
+    .header-reminder-btn span {
+        display: none;
+    }
+    
+    .header-reminder-btn i {
+        margin-right: 0;
+    }
+    
+    .set-reminder-btn span {
+        display: none;
+    }
+    
+    .set-reminder-btn {
+        padding: 15px;
+    }
+    
+    .product-list {
+        grid-template-columns: 1fr;
+    }
+
+    .filter-options {
+        flex-direction: column;
+    }
+    
+    .filter-options button {
+        justify-content: center;
+    }
+    
+    .medicine-actions {
+        flex-direction: column;
+    }
+}
