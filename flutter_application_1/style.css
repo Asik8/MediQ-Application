@@ -40,7 +40,7 @@ body {
 .login-logo i,
 .register-logo i {
     font-size: 3rem;
-    color: #4CAF50;
+    color: #2196F3;
     margin-bottom: 1rem;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .form-group input:focus {
     outline: none;
-    border-color: #4CAF50;
+    border-color: #2196F3;
 }
 
 /* Buttons */
@@ -87,7 +87,7 @@ body {
 .register-btn {
     width: 100%;
     padding: 1rem;
-    background-color: #4CAF50;
+    background-color: #2196F3;
     color: white;
     border: none;
     border-radius: 5px;
@@ -99,7 +99,7 @@ body {
 
 .login-btn:hover,
 .register-btn:hover {
-    background-color: #45a049;
+    background-color: #1976D2;
 }
 
 /* Footer */
@@ -112,7 +112,7 @@ body {
 
 .login-footer a,
 .register-footer a {
-    color: #4CAF50;
+    color: #2196F3;
     text-decoration: none;
     font-weight: 500;
 }
