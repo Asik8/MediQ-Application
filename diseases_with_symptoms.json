@@ -1,0 +1,903 @@
+[
+  {
+    "id": 1,
+    "name": "Diabetes",
+    "symptoms": [
+      "Insomnia",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hypertension",
+    "symptoms": [
+      "Vomiting",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Asthma",
+    "symptoms": [
+      "Insomnia",
+      "Tremors",
+      "Tingling",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tuberculosis",
+    "symptoms": [
+      "Shortness of breath",
+      "Tremors",
+      "Cough",
+      "Dizziness"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Malaria",
+    "symptoms": [
+      "Sore throat",
+      "Swelling",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Dengue",
+    "symptoms": [
+      "Runny nose",
+      "Rash"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "COVID-19",
+    "symptoms": [
+      "Weight gain",
+      "Loss of appetite",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Flu",
+    "symptoms": [
+      "Muscle aches",
+      "Shortness of breath",
+      "Loss of appetite",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Common Cold",
+    "symptoms": [
+      "Muscle aches",
+      "Headache"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Cholera",
+    "symptoms": [
+      "Fever",
+      "Tingling",
+      "Headache"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Hepatitis A",
+    "symptoms": [
+      "Weight gain",
+      "Tremors",
+      "Abdominal pain"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Hepatitis B",
+    "symptoms": [
+      "Fatigue",
+      "Rash"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Hepatitis C",
+    "symptoms": [
+      "Vomiting",
+      "Headache"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Typhoid",
+    "symptoms": [
+      "Fatigue",
+      "Tingling",
+      "Itching",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Pneumonia",
+    "symptoms": [
+      "Blurred vision",
+      "Palpitations",
+      "Chest pain",
+      "Swelling"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Chickenpox",
+    "symptoms": [
+      "Runny nose",
+      "Sore throat",
+      "Chest pain",
+      "Joint pain"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Measles",
+    "symptoms": [
+      "Joint pain",
+      "Swelling"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Mumps",
+    "symptoms": [
+      "Shortness of breath",
+      "Blurred vision",
+      "Rash",
+      "Dizziness"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Rubella",
+    "symptoms": [
+      "Sore throat",
+      "Blurred vision",
+      "Palpitations",
+      "Fever"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Polio",
+    "symptoms": [
+      "Diarrhea",
+      "Swelling",
+      "Fever"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Rabies",
+    "symptoms": [
+      "Weight gain",
+      "Runny nose",
+      "Tingling"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Leprosy",
+    "symptoms": [
+      "Weight gain",
+      "Vomiting",
+      "Cough",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Tetanus",
+    "symptoms": [
+      "Dry skin",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "HIV/AIDS",
+    "symptoms": [
+      "Sneezing",
+      "Vomiting"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Bronchitis",
+    "symptoms": [
+      "Nausea",
+      "Dry skin"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Sinusitis",
+    "symptoms": [
+      "Weight gain",
+      "Sneezing",
+      "Sore throat",
+      "Dizziness"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Migraine",
+    "symptoms": [
+      "Nausea",
+      "Cough",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Anemia",
+    "symptoms": [
+      "Blurred vision",
+      "Headache"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Appendicitis",
+    "symptoms": [
+      "Blurred vision",
+      "Nausea",
+      "Tingling"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Ulcer",
+    "symptoms": [
+      "Weight gain",
+      "Swelling"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Arthritis",
+    "symptoms": [
+      "Sneezing",
+      "Tingling",
+      "Sweating",
+      "Diarrhea"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Osteoporosis",
+    "symptoms": [
+      "Nausea",
+      "Chest pain"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Gout",
+    "symptoms": [
+      "Weight loss",
+      "Palpitations",
+      "Confusion"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Lupus",
+    "symptoms": [
+      "Itching",
+      "Abdominal pain",
+      "Swelling",
+      "Confusion"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Psoriasis",
+    "symptoms": [
+      "Blurred vision",
+      "Tremors",
+      "Runny nose",
+      "Confusion"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Eczema",
+    "symptoms": [
+      "Vomiting",
+      "Chest pain",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Scabies",
+    "symptoms": [
+      "Shortness of breath",
+      "Sneezing",
+      "Joint pain"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Ringworm",
+    "symptoms": [
+      "Itching",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Conjunctivitis",
+    "symptoms": [
+      "Muscle aches",
+      "Tingling",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Cataract",
+    "symptoms": [
+      "Fatigue",
+      "Palpitations",
+      "Abdominal pain",
+      "Swelling"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Glaucoma",
+    "symptoms": [
+      "Fatigue",
+      "Runny nose",
+      "Dry skin"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Otitis",
+    "symptoms": [
+      "Weight gain",
+      "Weight loss",
+      "Joint pain",
+      "Fever"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Depression",
+    "symptoms": [
+      "Blurred vision",
+      "Runny nose",
+      "Chest pain",
+      "Cough"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Anxiety",
+    "symptoms": [
+      "Runny nose",
+      "Dizziness",
+      "Rash",
+      "Fever"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Bipolar Disorder",
+    "symptoms": [
+      "Shortness of breath",
+      "Sore throat",
+      "Itching"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Schizophrenia",
+    "symptoms": [
+      "Weight loss",
+      "Diarrhea"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Parkinson's Disease",
+    "symptoms": [
+      "Sore throat",
+      "Rash",
+      "Diarrhea"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Alzheimer's Disease",
+    "symptoms": [
+      "Vomiting",
+      "Diarrhea"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Epilepsy",
+    "symptoms": [
+      "Runny nose",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Stroke",
+    "symptoms": [
+      "Muscle aches",
+      "Vomiting",
+      "Itching",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Heart Attack",
+    "symptoms": [
+      "Insomnia",
+      "Joint pain",
+      "Dry skin",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Heart Failure",
+    "symptoms": [
+      "Insomnia",
+      "Loss of appetite",
+      "Abdominal pain",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Arrhythmia",
+    "symptoms": [
+      "Shortness of breath",
+      "Headache"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Obesity",
+    "symptoms": [
+      "Fatigue",
+      "Cough"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Thyroid Disorder",
+    "symptoms": [
+      "Blurred vision",
+      "Vomiting",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "PCOS",
+    "symptoms": [
+      "Shortness of breath",
+      "Sore throat",
+      "Chest pain",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Infertility",
+    "symptoms": [
+      "Nausea",
+      "Headache"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Acne",
+    "symptoms": [
+      "Sore throat",
+      "Rash",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Melanoma",
+    "symptoms": [
+      "Itching",
+      "Chest pain",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Skin Cancer",
+    "symptoms": [
+      "Runny nose",
+      "Abdominal pain"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Lung Cancer",
+    "symptoms": [
+      "Cough",
+      "Tremors",
+      "Swelling",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Breast Cancer",
+    "symptoms": [
+      "Diarrhea",
+      "Rash",
+      "Itching",
+      "Headache"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Prostate Cancer",
+    "symptoms": [
+      "Muscle aches",
+      "Sore throat",
+      "Weight loss",
+      "Swelling"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Colon Cancer",
+    "symptoms": [
+      "Palpitations",
+      "Nausea",
+      "Vomiting"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Pancreatic Cancer",
+    "symptoms": [
+      "Tremors",
+      "Joint pain"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Liver Cancer",
+    "symptoms": [
+      "Fever",
+      "Diarrhea"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Leukemia",
+    "symptoms": [
+      "Weight gain",
+      "Confusion"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Lymphoma",
+    "symptoms": [
+      "Joint pain",
+      "Itching",
+      "Dry skin",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Multiple Sclerosis",
+    "symptoms": [
+      "Shortness of breath",
+      "Sore throat",
+      "Chest pain"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Cystic Fibrosis",
+    "symptoms": [
+      "Rash",
+      "Abdominal pain",
+      "Joint pain",
+      "Fever"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Crohn's Disease",
+    "symptoms": [
+      "Chest pain",
+      "Rash",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Ulcerative Colitis",
+    "symptoms": [
+      "Fatigue",
+      "Insomnia",
+      "Dry skin",
+      "Joint pain"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "GERD",
+    "symptoms": [
+      "Sweating",
+      "Fever"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "IBS",
+    "symptoms": [
+      "Sore throat",
+      "Blurred vision",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Hemorrhoids",
+    "symptoms": [
+      "Tremors",
+      "Dry skin"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Gallstones",
+    "symptoms": [
+      "Sneezing",
+      "Rash",
+      "Confusion"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Kidney Stones",
+    "symptoms": [
+      "Fatigue",
+      "Tremors",
+      "Vomiting"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "UTI",
+    "symptoms": [
+      "Muscle aches",
+      "Sore throat",
+      "Shortness of breath",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Bladder Infection",
+    "symptoms": [
+      "Rash",
+      "Headache"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Prostatitis",
+    "symptoms": [
+      "Sneezing",
+      "Confusion",
+      "Headache"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Menopause",
+    "symptoms": [
+      "Shortness of breath",
+      "Runny nose",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Endometriosis",
+    "symptoms": [
+      "Shortness of breath",
+      "Itching",
+      "Fever"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Dysmenorrhea",
+    "symptoms": [
+      "Rash",
+      "Cough",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Tonsillitis",
+    "symptoms": [
+      "Nausea",
+      "Dry skin",
+      "Abdominal pain",
+      "Diarrhea"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Sore Throat",
+    "symptoms": [
+      "Rash",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Laryngitis",
+    "symptoms": [
+      "Weight gain",
+      "Cough",
+      "Chest pain"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Whooping Cough",
+    "symptoms": [
+      "Weight gain",
+      "Sneezing",
+      "Abdominal pain",
+      "Confusion"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Sleep Apnea",
+    "symptoms": [
+      "Tingling",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Insomnia",
+    "symptoms": [
+      "Shortness of breath",
+      "Nausea",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Narcolepsy",
+    "symptoms": [
+      "Vomiting",
+      "Rash",
+      "Tingling"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Allergies",
+    "symptoms": [
+      "Shortness of breath",
+      "Rash",
+      "Cough",
+      "Sweating"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Hay Fever",
+    "symptoms": [
+      "Insomnia",
+      "Tingling",
+      "Swelling"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Sinus Allergy",
+    "symptoms": [
+      "Dry skin",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Astigmatism",
+    "symptoms": [
+      "Loss of appetite",
+      "Cough",
+      "Headache"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Myopia",
+    "symptoms": [
+      "Palpitations",
+      "Sweating",
+      "Diarrhea"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Hyperopia",
+    "symptoms": [
+      "Sneezing",
+      "Vomiting",
+      "Abdominal pain",
+      "Confusion"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Vertigo",
+    "symptoms": [
+      "Itching",
+      "Tingling",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Motion Sickness",
+    "symptoms": [
+      "Shortness of breath",
+      "Blurred vision",
+      "Nausea"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Heat Stroke",
+    "symptoms": [
+      "Sneezing",
+      "Tremors",
+      "Fever"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Dehydration",
+    "symptoms": [
+      "Tremors",
+      "Confusion"
+    ]
+  }
+]
