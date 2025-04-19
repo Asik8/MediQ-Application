@@ -1,0 +1,2639 @@
+[
+  {
+    "id": 1,
+    "name": "Aspirin Tablet 911mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Ecotrin"
+    ],
+    "uses": [
+      "Infection",
+      "Cholesterol"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Headache"
+    ],
+    "dosage": "291mg every 6 hours",
+    "interactions": [
+      "Alcohol",
+      "Antacids"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Do not overdose"
+    ],
+    "price": 40.48,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 2,
+    "name": "Paracetamol Tablet 722mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Panadol"
+    ],
+    "uses": [
+      "Infection",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Rash",
+      "Stomach upset"
+    ],
+    "dosage": "690mg every 8 hours",
+    "interactions": [
+      "Diuretics",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 44.42,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 3,
+    "name": "Amoxicillin Tablet 106mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Trimox"
+    ],
+    "uses": [
+      "Infection",
+      "Cholesterol"
+    ],
+    "side_effects": [
+      "Rash",
+      "Stomach upset"
+    ],
+    "dosage": "275mg every 8 hours",
+    "interactions": [
+      "Diuretics"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Consult doctor if pregnant"
+    ],
+    "price": 32.04,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 4,
+    "name": "Ibuprofen Tablet 805mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Nurofen"
+    ],
+    "uses": [
+      "Acidity",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Headache"
+    ],
+    "dosage": "697mg every 8 hours",
+    "interactions": [
+      "Diuretics",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 6.65,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 5,
+    "name": "Paracetamol Tablet 248mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Calpol"
+    ],
+    "uses": [
+      "Infection",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Dizziness"
+    ],
+    "dosage": "257mg every 9 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Do not overdose"
+    ],
+    "price": 40.23,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 6,
+    "name": "Ibuprofen Tablet 539mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Nurofen"
+    ],
+    "uses": [
+      "Fever"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Rash"
+    ],
+    "dosage": "918mg every 12 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving"
+    ],
+    "price": 11.32,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 7,
+    "name": "Omeprazole Tablet 876mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Losec"
+    ],
+    "uses": [
+      "Diabetes",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Dizziness"
+    ],
+    "dosage": "382mg every 8 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Consult doctor if pregnant"
+    ],
+    "price": 36.15,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 8,
+    "name": "Paracetamol Tablet 367mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Calpol"
+    ],
+    "uses": [
+      "Diabetes",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Headache"
+    ],
+    "dosage": "977mg every 12 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 10.08,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 9,
+    "name": "Amoxicillin Tablet 616mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Dizziness"
+    ],
+    "dosage": "283mg every 7 hours",
+    "interactions": [
+      "Diuretics"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 27.85,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 10,
+    "name": "Omeprazole Tablet 158mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Prilosec"
+    ],
+    "uses": [
+      "Infection",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Rash",
+      "Dizziness"
+    ],
+    "dosage": "457mg every 12 hours",
+    "interactions": [
+      "Diuretics",
+      "Warfarin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 6.9,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 11,
+    "name": "Paracetamol Tablet 752mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Tylenol"
+    ],
+    "uses": [
+      "Infection",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Allergic reactions"
+    ],
+    "dosage": "315mg every 8 hours",
+    "interactions": [
+      "Diuretics"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 24.94,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 12,
+    "name": "Lisinopril Tablet 844mg",
+    "generic_name": "Lisinopril",
+    "brand_names": [
+      "Zestril"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Fever"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Dizziness"
+    ],
+    "dosage": "598mg every 6 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "Do not overdose"
+    ],
+    "price": 40.09,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 13,
+    "name": "Metformin Tablet 384mg",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Fortamet"
+    ],
+    "uses": [
+      "Fever"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Rash"
+    ],
+    "dosage": "917mg every 9 hours",
+    "interactions": [
+      "Alcohol",
+      "Antacids"
+    ],
+    "warnings": [
+      "Do not overdose"
+    ],
+    "price": 19.2,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 14,
+    "name": "Aspirin Tablet 160mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Bayer"
+    ],
+    "uses": [
+      "Diabetes",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Headache"
+    ],
+    "dosage": "938mg every 11 hours",
+    "interactions": [
+      "Alcohol",
+      "Antacids"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Do not overdose"
+    ],
+    "price": 12.2,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 15,
+    "name": "Paracetamol Tablet 859mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Panadol"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Rash"
+    ],
+    "dosage": "281mg every 10 hours",
+    "interactions": [
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 15.78,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 16,
+    "name": "Paracetamol Tablet 128mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Calpol"
+    ],
+    "uses": [
+      "Pain relief",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Dizziness"
+    ],
+    "dosage": "797mg every 7 hours",
+    "interactions": [
+      "Diuretics",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 5.31,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 17,
+    "name": "Amoxicillin Tablet 787mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Trimox"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Fever"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Rash"
+    ],
+    "dosage": "260mg every 6 hours",
+    "interactions": [
+      "Antacids"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Avoid driving"
+    ],
+    "price": 24.58,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 18,
+    "name": "Omeprazole Tablet 286mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Prilosec"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Acidity"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Headache"
+    ],
+    "dosage": "740mg every 9 hours",
+    "interactions": [
+      "Alcohol"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Do not overdose"
+    ],
+    "price": 8.4,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 19,
+    "name": "Amoxicillin Tablet 741mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "Fever",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Allergic reactions"
+    ],
+    "dosage": "999mg every 8 hours",
+    "interactions": [
+      "Alcohol",
+      "Antacids"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 8.19,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 20,
+    "name": "Lisinopril Tablet 398mg",
+    "generic_name": "Lisinopril",
+    "brand_names": [
+      "Zestril"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Rash"
+    ],
+    "dosage": "256mg every 7 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Do not overdose"
+    ],
+    "price": 46.25,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 21,
+    "name": "Paracetamol Tablet 791mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Calpol"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Cholesterol"
+    ],
+    "side_effects": [
+      "Rash",
+      "Dizziness"
+    ],
+    "dosage": "643mg every 7 hours",
+    "interactions": [
+      "Antacids",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Do not overdose"
+    ],
+    "price": 10.1,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 22,
+    "name": "Metformin Tablet 868mg",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Fortamet"
+    ],
+    "uses": [
+      "Infection",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Allergic reactions"
+    ],
+    "dosage": "558mg every 12 hours",
+    "interactions": [
+      "Diuretics",
+      "Insulin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Do not overdose"
+    ],
+    "price": 37.03,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 23,
+    "name": "Amoxicillin Tablet 335mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Trimox"
+    ],
+    "uses": [
+      "Acidity",
+      "Fever"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Headache"
+    ],
+    "dosage": "342mg every 11 hours",
+    "interactions": [
+      "Antacids",
+      "Insulin"
+    ],
+    "warnings": [
+      "Do not overdose",
+      "Consult doctor if pregnant"
+    ],
+    "price": 35.62,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 24,
+    "name": "Amoxicillin Tablet 809mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "Fever",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Dizziness"
+    ],
+    "dosage": "277mg every 6 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 21.83,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 25,
+    "name": "Omeprazole Tablet 895mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Losec"
+    ],
+    "uses": [
+      "High blood pressure"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Headache"
+    ],
+    "dosage": "396mg every 12 hours",
+    "interactions": [
+      "Alcohol",
+      "Insulin"
+    ],
+    "warnings": [
+      "Consult doctor if pregnant",
+      "Do not overdose"
+    ],
+    "price": 25.72,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 26,
+    "name": "Metformin Tablet 179mg",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Fortamet"
+    ],
+    "uses": [
+      "Infection",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "dosage": "732mg every 6 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 37.03,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 27,
+    "name": "Paracetamol Tablet 388mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Panadol"
+    ],
+    "uses": [
+      "Infection",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "dosage": "917mg every 12 hours",
+    "interactions": [
+      "Antacids",
+      "Insulin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "May cause liver damage"
+    ],
+    "price": 5.5,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 28,
+    "name": "Ibuprofen Tablet 567mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Nurofen"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Fever"
+    ],
+    "side_effects": [
+      "Stomach upset"
+    ],
+    "dosage": "309mg every 7 hours",
+    "interactions": [
+      "Diuretics"
+    ],
+    "warnings": [
+      "Do not overdose",
+      "Consult doctor if pregnant"
+    ],
+    "price": 10.78,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 29,
+    "name": "Paracetamol Tablet 255mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Panadol"
+    ],
+    "uses": [
+      "Infection",
+      "Fever"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Dizziness"
+    ],
+    "dosage": "546mg every 10 hours",
+    "interactions": [
+      "Diuretics",
+      "Antacids"
+    ],
+    "warnings": [
+      "Do not overdose"
+    ],
+    "price": 20.84,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 30,
+    "name": "Atorvastatin Tablet 356mg",
+    "generic_name": "Atorvastatin",
+    "brand_names": [
+      "Lipitor"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Acidity"
+    ],
+    "side_effects": [
+      "Nausea"
+    ],
+    "dosage": "739mg every 12 hours",
+    "interactions": [
+      "Diuretics",
+      "Insulin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Avoid driving"
+    ],
+    "price": 16.49,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 31,
+    "name": "Paracetamol Tablet 947mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Tylenol"
+    ],
+    "uses": [
+      "Acidity",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Dizziness"
+    ],
+    "dosage": "409mg every 10 hours",
+    "interactions": [
+      "Alcohol",
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 48.22,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 32,
+    "name": "Omeprazole Tablet 173mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Losec"
+    ],
+    "uses": [
+      "Diabetes",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Stomach upset"
+    ],
+    "dosage": "938mg every 9 hours",
+    "interactions": [
+      "Diuretics",
+      "Insulin"
+    ],
+    "warnings": [
+      "Do not overdose"
+    ],
+    "price": 32.17,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 33,
+    "name": "Paracetamol Tablet 285mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Tylenol"
+    ],
+    "uses": [
+      "Infection",
+      "Acidity"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Headache"
+    ],
+    "dosage": "447mg every 9 hours",
+    "interactions": [
+      "Antacids",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Consult doctor if pregnant"
+    ],
+    "price": 34.36,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 34,
+    "name": "Atorvastatin Tablet 849mg",
+    "generic_name": "Atorvastatin",
+    "brand_names": [
+      "Lipitor"
+    ],
+    "uses": [
+      "Acidity",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Allergic reactions"
+    ],
+    "dosage": "782mg every 11 hours",
+    "interactions": [
+      "Alcohol",
+      "Antacids"
+    ],
+    "warnings": [
+      "Consult doctor if pregnant",
+      "Do not overdose"
+    ],
+    "price": 36.88,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 35,
+    "name": "Ibuprofen Tablet 743mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Advil"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Dizziness"
+    ],
+    "dosage": "736mg every 7 hours",
+    "interactions": [
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 33.04,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 36,
+    "name": "Aspirin Tablet 905mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Ecotrin"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Stomach upset"
+    ],
+    "dosage": "805mg every 9 hours",
+    "interactions": [
+      "Antacids",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Avoid driving"
+    ],
+    "price": 23.69,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 37,
+    "name": "Paracetamol Tablet 824mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Calpol"
+    ],
+    "uses": [
+      "Acidity"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Stomach upset"
+    ],
+    "dosage": "591mg every 8 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 11.78,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 38,
+    "name": "Paracetamol Tablet 407mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Tylenol"
+    ],
+    "uses": [
+      "Pain relief",
+      "Fever"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Rash"
+    ],
+    "dosage": "856mg every 9 hours",
+    "interactions": [
+      "Antacids",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 3.62,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 39,
+    "name": "Omeprazole Tablet 979mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Prilosec"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Rash",
+      "Stomach upset"
+    ],
+    "dosage": "321mg every 12 hours",
+    "interactions": [
+      "Diuretics",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 20.65,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 40,
+    "name": "Metformin Tablet 794mg",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Glucophage"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Dizziness"
+    ],
+    "dosage": "791mg every 6 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Do not overdose"
+    ],
+    "price": 8.79,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 41,
+    "name": "Metformin Tablet 122mg",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Fortamet"
+    ],
+    "uses": [
+      "High blood pressure"
+    ],
+    "side_effects": [
+      "Rash",
+      "Stomach upset"
+    ],
+    "dosage": "963mg every 12 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Do not overdose"
+    ],
+    "price": 27.16,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 42,
+    "name": "Ibuprofen Tablet 569mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Nurofen"
+    ],
+    "uses": [
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Headache"
+    ],
+    "dosage": "327mg every 7 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 24.07,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 43,
+    "name": "Ibuprofen Tablet 820mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Nurofen"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Fever"
+    ],
+    "side_effects": [
+      "Rash",
+      "Dizziness"
+    ],
+    "dosage": "958mg every 7 hours",
+    "interactions": [
+      "Diuretics",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Do not overdose",
+      "Consult doctor if pregnant"
+    ],
+    "price": 37.69,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 44,
+    "name": "Lisinopril Tablet 804mg",
+    "generic_name": "Lisinopril",
+    "brand_names": [
+      "Zestril"
+    ],
+    "uses": [
+      "Diabetes",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Dizziness"
+    ],
+    "dosage": "773mg every 12 hours",
+    "interactions": [
+      "Diuretics",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage"
+    ],
+    "price": 35.42,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 45,
+    "name": "Metformin Tablet 398mg",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Glucophage"
+    ],
+    "uses": [
+      "Fever"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Headache"
+    ],
+    "dosage": "809mg every 7 hours",
+    "interactions": [
+      "Diuretics",
+      "Warfarin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Do not overdose"
+    ],
+    "price": 32.21,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 46,
+    "name": "Amoxicillin Tablet 920mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "Acidity",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "dosage": "763mg every 11 hours",
+    "interactions": [
+      "Alcohol",
+      "Insulin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "May cause liver damage"
+    ],
+    "price": 39.39,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 47,
+    "name": "Lisinopril Tablet 613mg",
+    "generic_name": "Lisinopril",
+    "brand_names": [
+      "Zestril"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Headache"
+    ],
+    "dosage": "407mg every 6 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Consult doctor if pregnant"
+    ],
+    "price": 31.21,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 48,
+    "name": "Atorvastatin Tablet 592mg",
+    "generic_name": "Atorvastatin",
+    "brand_names": [
+      "Lipitor"
+    ],
+    "uses": [
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Rash"
+    ],
+    "dosage": "606mg every 8 hours",
+    "interactions": [
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Do not overdose"
+    ],
+    "price": 28.14,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 49,
+    "name": "Aspirin Tablet 359mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Bayer"
+    ],
+    "uses": [
+      "Heart disease",
+      "Fever"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Rash"
+    ],
+    "dosage": "427mg every 10 hours",
+    "interactions": [
+      "Alcohol",
+      "Antacids"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 41.96,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 50,
+    "name": "Amoxicillin Tablet 336mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Trimox"
+    ],
+    "uses": [
+      "Infection"
+    ],
+    "side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "dosage": "719mg every 12 hours",
+    "interactions": [
+      "Alcohol",
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 25.89,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 51,
+    "name": "Metformin Tablet 328mg",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Glucophage"
+    ],
+    "uses": [
+      "Acidity",
+      "Fever"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Dizziness"
+    ],
+    "dosage": "379mg every 11 hours",
+    "interactions": [
+      "Diuretics"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Do not overdose"
+    ],
+    "price": 6.61,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 52,
+    "name": "Aspirin Tablet 694mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Ecotrin"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Fever"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Rash"
+    ],
+    "dosage": "331mg every 9 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 38.26,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 53,
+    "name": "Omeprazole Tablet 600mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Losec"
+    ],
+    "uses": [
+      "Acidity",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Dizziness",
+      "Headache"
+    ],
+    "dosage": "691mg every 8 hours",
+    "interactions": [
+      "Alcohol",
+      "Antacids"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Avoid driving"
+    ],
+    "price": 28.02,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 54,
+    "name": "Amoxicillin Tablet 437mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Trimox"
+    ],
+    "uses": [
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Rash",
+      "Dizziness"
+    ],
+    "dosage": "496mg every 12 hours",
+    "interactions": [
+      "Diuretics",
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Do not overdose"
+    ],
+    "price": 20.31,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 55,
+    "name": "Aspirin Tablet 299mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Ecotrin"
+    ],
+    "uses": [
+      "Diabetes",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Rash",
+      "Stomach upset"
+    ],
+    "dosage": "703mg every 9 hours",
+    "interactions": [
+      "Diuretics",
+      "Antacids"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Do not overdose"
+    ],
+    "price": 18.43,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 56,
+    "name": "Ibuprofen Tablet 323mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Advil"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Headache"
+    ],
+    "dosage": "351mg every 7 hours",
+    "interactions": [
+      "Diuretics",
+      "Antacids"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Do not overdose"
+    ],
+    "price": 42.65,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 57,
+    "name": "Omeprazole Tablet 688mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Prilosec"
+    ],
+    "uses": [
+      "Infection",
+      "High blood pressure"
+    ],
+    "side_effects": [
+      "Allergic reactions"
+    ],
+    "dosage": "451mg every 9 hours",
+    "interactions": [
+      "Antacids",
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Consult doctor if pregnant"
+    ],
+    "price": 34.38,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 58,
+    "name": "Amoxicillin Tablet 863mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Fever"
+    ],
+    "side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "dosage": "374mg every 12 hours",
+    "interactions": [
+      "Diuretics",
+      "Insulin"
+    ],
+    "warnings": [
+      "Keep out of reach of children"
+    ],
+    "price": 16.1,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 59,
+    "name": "Aspirin Tablet 233mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Ecotrin"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Headache",
+      "Dizziness"
+    ],
+    "dosage": "378mg every 12 hours",
+    "interactions": [
+      "Diuretics",
+      "Alcohol"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Do not overdose"
+    ],
+    "price": 13.57,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 60,
+    "name": "Metformin Tablet 991mg",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Glucophage"
+    ],
+    "uses": [
+      "Diabetes",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Dizziness"
+    ],
+    "dosage": "693mg every 12 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 7.8,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 61,
+    "name": "Amoxicillin Tablet 261mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Stomach upset"
+    ],
+    "dosage": "446mg every 7 hours",
+    "interactions": [
+      "Alcohol",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 20.09,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 62,
+    "name": "Amoxicillin Tablet 928mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "Diabetes",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "dosage": "601mg every 6 hours",
+    "interactions": [
+      "Diuretics",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Do not overdose"
+    ],
+    "price": 12.33,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 63,
+    "name": "Amoxicillin Tablet 303mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "Acidity"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Dizziness"
+    ],
+    "dosage": "815mg every 10 hours",
+    "interactions": [
+      "Diuretics",
+      "Alcohol"
+    ],
+    "warnings": [
+      "Avoid driving"
+    ],
+    "price": 14.99,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 64,
+    "name": "Ibuprofen Tablet 711mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Nurofen"
+    ],
+    "uses": [
+      "Cholesterol"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Rash"
+    ],
+    "dosage": "527mg every 12 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "Consult doctor if pregnant"
+    ],
+    "price": 37.43,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 65,
+    "name": "Omeprazole Tablet 993mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Losec"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Fever"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Headache"
+    ],
+    "dosage": "985mg every 8 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Do not overdose"
+    ],
+    "price": 27.1,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 66,
+    "name": "Metformin Tablet 275mg",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Fortamet"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Dizziness",
+      "Headache"
+    ],
+    "dosage": "686mg every 12 hours",
+    "interactions": [
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Do not overdose"
+    ],
+    "price": 35.55,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 67,
+    "name": "Omeprazole Tablet 603mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Prilosec"
+    ],
+    "uses": [
+      "Heart disease",
+      "Fever"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Stomach upset"
+    ],
+    "dosage": "960mg every 11 hours",
+    "interactions": [
+      "Diuretics",
+      "Alcohol"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Consult doctor if pregnant"
+    ],
+    "price": 21.96,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 68,
+    "name": "Paracetamol Tablet 876mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Panadol"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Dizziness"
+    ],
+    "dosage": "833mg every 10 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Do not overdose"
+    ],
+    "price": 12.84,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 69,
+    "name": "Lisinopril Tablet 562mg",
+    "generic_name": "Lisinopril",
+    "brand_names": [
+      "Zestril"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Headache"
+    ],
+    "dosage": "945mg every 11 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Do not overdose"
+    ],
+    "price": 19.43,
+    "manufacturer": "Beximco Pharma"
+  },
+  {
+    "id": 70,
+    "name": "Amoxicillin Tablet 362mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Trimox"
+    ],
+    "uses": [
+      "Infection",
+      "High blood pressure"
+    ],
+    "side_effects": [
+      "Rash",
+      "Stomach upset"
+    ],
+    "dosage": "759mg every 8 hours",
+    "interactions": [
+      "Warfarin",
+      "Antacids"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Consult doctor if pregnant"
+    ],
+    "price": 3.17,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 71,
+    "name": "Aspirin Tablet 494mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Ecotrin"
+    ],
+    "uses": [
+      "Infection",
+      "High blood pressure"
+    ],
+    "side_effects": [
+      "Rash",
+      "Stomach upset"
+    ],
+    "dosage": "651mg every 12 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Consult doctor if pregnant"
+    ],
+    "price": 36.21,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 72,
+    "name": "Ibuprofen Tablet 537mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Advil"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Allergic reactions"
+    ],
+    "dosage": "988mg every 8 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "May cause liver damage"
+    ],
+    "price": 44.1,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 73,
+    "name": "Amoxicillin Tablet 863mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Trimox"
+    ],
+    "uses": [
+      "Infection",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Stomach upset"
+    ],
+    "dosage": "865mg every 12 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "Consult doctor if pregnant",
+      "Do not overdose"
+    ],
+    "price": 28.82,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 74,
+    "name": "Ibuprofen Tablet 215mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Advil"
+    ],
+    "uses": [
+      "Infection",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Allergic reactions"
+    ],
+    "dosage": "984mg every 11 hours",
+    "interactions": [
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 17.66,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 75,
+    "name": "Omeprazole Tablet 813mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Losec"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "dosage": "667mg every 9 hours",
+    "interactions": [
+      "Diuretics",
+      "Warfarin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 21.86,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 76,
+    "name": "Paracetamol Tablet 491mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Panadol"
+    ],
+    "uses": [
+      "Acidity",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Allergic reactions"
+    ],
+    "dosage": "591mg every 6 hours",
+    "interactions": [
+      "Diuretics",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Do not overdose"
+    ],
+    "price": 4.39,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 77,
+    "name": "Omeprazole Tablet 415mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Losec"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Acidity"
+    ],
+    "side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "dosage": "613mg every 6 hours",
+    "interactions": [
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Do not overdose"
+    ],
+    "price": 11.89,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 78,
+    "name": "Aspirin Tablet 999mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Bayer"
+    ],
+    "uses": [
+      "Acidity",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Allergic reactions"
+    ],
+    "dosage": "733mg every 10 hours",
+    "interactions": [
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Consult doctor if pregnant"
+    ],
+    "price": 22.7,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 79,
+    "name": "Ibuprofen Tablet 251mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Advil"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Acidity"
+    ],
+    "side_effects": [
+      "Headache"
+    ],
+    "dosage": "415mg every 6 hours",
+    "interactions": [
+      "Warfarin",
+      "Insulin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "May cause liver damage"
+    ],
+    "price": 35.67,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 80,
+    "name": "Amoxicillin Tablet 819mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "Acidity",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Dizziness"
+    ],
+    "dosage": "447mg every 9 hours",
+    "interactions": [
+      "Antacids",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Do not overdose"
+    ],
+    "price": 5.53,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 81,
+    "name": "Omeprazole Tablet 131mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Losec"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Rash"
+    ],
+    "dosage": "784mg every 11 hours",
+    "interactions": [
+      "Antacids"
+    ],
+    "warnings": [
+      "Avoid driving"
+    ],
+    "price": 6.85,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 82,
+    "name": "Paracetamol Tablet 166mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Panadol"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Fever"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Dizziness"
+    ],
+    "dosage": "336mg every 6 hours",
+    "interactions": [
+      "Alcohol",
+      "Antacids"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Consult doctor if pregnant"
+    ],
+    "price": 49.56,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 83,
+    "name": "Amoxicillin Tablet 109mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Trimox"
+    ],
+    "uses": [
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "dosage": "297mg every 8 hours",
+    "interactions": [
+      "Alcohol"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Avoid driving"
+    ],
+    "price": 44.1,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 84,
+    "name": "Paracetamol Tablet 598mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Panadol"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Acidity"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Headache"
+    ],
+    "dosage": "611mg every 6 hours",
+    "interactions": [
+      "Warfarin",
+      "Antacids"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 31.2,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 85,
+    "name": "Amoxicillin Tablet 872mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Dizziness"
+    ],
+    "dosage": "381mg every 11 hours",
+    "interactions": [
+      "Warfarin",
+      "Antacids"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Consult doctor if pregnant"
+    ],
+    "price": 25.94,
+    "manufacturer": "Square Pharmaceuticals"
+  },
+  {
+    "id": 86,
+    "name": "Omeprazole Tablet 756mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Losec"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Allergic reactions"
+    ],
+    "dosage": "314mg every 6 hours",
+    "interactions": [
+      "Diuretics",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Avoid driving"
+    ],
+    "price": 29.26,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 87,
+    "name": "Ibuprofen Tablet 919mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Nurofen"
+    ],
+    "uses": [
+      "Acidity",
+      "Pain relief"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Stomach upset"
+    ],
+    "dosage": "405mg every 7 hours",
+    "interactions": [
+      "Diuretics"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 3.79,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 88,
+    "name": "Omeprazole Tablet 714mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Prilosec"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Fever"
+    ],
+    "side_effects": [
+      "Rash",
+      "Stomach upset"
+    ],
+    "dosage": "531mg every 11 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Consult doctor if pregnant"
+    ],
+    "price": 43.88,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 89,
+    "name": "Aspirin Tablet 305mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Bayer"
+    ],
+    "uses": [
+      "Fever"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Stomach upset"
+    ],
+    "dosage": "895mg every 7 hours",
+    "interactions": [
+      "Alcohol",
+      "Insulin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 20.58,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 90,
+    "name": "Atorvastatin Tablet 566mg",
+    "generic_name": "Atorvastatin",
+    "brand_names": [
+      "Lipitor"
+    ],
+    "uses": [
+      "Diabetes",
+      "Fever"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Stomach upset"
+    ],
+    "dosage": "795mg every 11 hours",
+    "interactions": [
+      "Alcohol",
+      "Antacids"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 11.31,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 91,
+    "name": "Aspirin Tablet 119mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Ecotrin"
+    ],
+    "uses": [
+      "Acidity",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Headache"
+    ],
+    "dosage": "409mg every 9 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Do not overdose"
+    ],
+    "price": 31.31,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 92,
+    "name": "Metformin Tablet 1000mg",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Fortamet"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Rash",
+      "Stomach upset"
+    ],
+    "dosage": "600mg every 7 hours",
+    "interactions": [
+      "Antacids",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 5.94,
+    "manufacturer": "ACI Limited"
+  },
+  {
+    "id": 93,
+    "name": "Aspirin Tablet 700mg",
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Ecotrin"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Acidity"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Allergic reactions"
+    ],
+    "dosage": "863mg every 11 hours",
+    "interactions": [
+      "Alcohol",
+      "Antacids"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Consult doctor if pregnant"
+    ],
+    "price": 15.18,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 94,
+    "name": "Amoxicillin Tablet 455mg",
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Fever"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Dizziness"
+    ],
+    "dosage": "497mg every 7 hours",
+    "interactions": [
+      "Warfarin"
+    ],
+    "warnings": [
+      "Keep out of reach of children",
+      "Do not overdose"
+    ],
+    "price": 43.04,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 95,
+    "name": "Ibuprofen Tablet 894mg",
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Nurofen"
+    ],
+    "uses": [
+      "Infection",
+      "High blood pressure"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Headache"
+    ],
+    "dosage": "374mg every 10 hours",
+    "interactions": [
+      "Diuretics",
+      "Antacids"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "Consult doctor if pregnant"
+    ],
+    "price": 17.36,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 96,
+    "name": "Omeprazole Tablet 274mg",
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Prilosec"
+    ],
+    "uses": [
+      "Cholesterol",
+      "Acidity"
+    ],
+    "side_effects": [
+      "Rash",
+      "Stomach upset"
+    ],
+    "dosage": "755mg every 12 hours",
+    "interactions": [
+      "Diuretics"
+    ],
+    "warnings": [
+      "Avoid driving"
+    ],
+    "price": 48.14,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 97,
+    "name": "Atorvastatin Tablet 913mg",
+    "generic_name": "Atorvastatin",
+    "brand_names": [
+      "Lipitor"
+    ],
+    "uses": [
+      "Cholesterol"
+    ],
+    "side_effects": [
+      "Allergic reactions",
+      "Rash"
+    ],
+    "dosage": "780mg every 11 hours",
+    "interactions": [
+      "Diuretics",
+      "Antacids"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 39.33,
+    "manufacturer": "Opsonin Pharma"
+  },
+  {
+    "id": 98,
+    "name": "Atorvastatin Tablet 641mg",
+    "generic_name": "Atorvastatin",
+    "brand_names": [
+      "Lipitor"
+    ],
+    "uses": [
+      "Infection",
+      "High blood pressure"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Dizziness"
+    ],
+    "dosage": "719mg every 12 hours",
+    "interactions": [
+      "Insulin"
+    ],
+    "warnings": [
+      "Do not overdose"
+    ],
+    "price": 48.28,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 99,
+    "name": "Paracetamol Tablet 353mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Panadol"
+    ],
+    "uses": [
+      "High blood pressure",
+      "Diabetes"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Dizziness"
+    ],
+    "dosage": "881mg every 8 hours",
+    "interactions": [
+      "Diuretics",
+      "Insulin"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Do not overdose"
+    ],
+    "price": 10.07,
+    "manufacturer": "Incepta Pharma"
+  },
+  {
+    "id": 100,
+    "name": "Paracetamol Tablet 296mg",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Calpol"
+    ],
+    "uses": [
+      "Acidity",
+      "Fever"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Headache"
+    ],
+    "dosage": "417mg every 6 hours",
+    "interactions": [
+      "Diuretics",
+      "Antacids"
+    ],
+    "warnings": [
+      "May cause liver damage",
+      "Consult doctor if pregnant"
+    ],
+    "price": 28.26,
+    "manufacturer": "Renata Limited"
+  }
+]
