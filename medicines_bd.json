@@ -184,6 +184,7 @@
     "price": 36.15,
     "manufacturer": "Square Pharmaceuticals"
   },
+  
   {
     "id": 8,
     "name": "Paracetamol Tablet 367mg",
@@ -2634,6 +2635,33 @@
       "Consult doctor if pregnant"
     ],
     "price": 28.26,
+    "manufacturer": "Renata Limited"
+  },
+  {
+    "id": 101,
+    "name": "Napa",
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Calpol"
+    ],
+    "uses": [
+      "Diabetes",
+      "Heart disease"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Headache"
+    ],
+    "dosage": "977mg every 12 hours",
+    "interactions": [
+      "Alcohol",
+      "Warfarin"
+    ],
+    "warnings": [
+      "Avoid driving",
+      "May cause liver damage"
+    ],
+    "price": 10.08,
     "manufacturer": "Renata Limited"
   }
 ]
